@@ -1,0 +1,156 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+nav {
+  display: block;
+  margin: 10px auto;
+}
+
+header{
+  text-align: center;
+  font-weight:bold;
+  color: darkgray;
+  margin: 5px auto;
+  font: 16px "Courier New",monospace;
+}
+
+p {
+  display: block;
+  font-weight:bold;
+  padding-top: 30px;
+  color: dimgray;
+  font: 16px "Verdana",monospace;
+}
+
+.headertext{
+  font-weight:bold;
+  color: darkslategrey;
+}
+
+.box {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  background: gray;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.widebox{
+  position: relative;
+  line-height: 75px;
+  /* padding: 50%; */
+  text-align: center;
+  background: whitesmoke;
+  /* line-height: 75px; */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  /* margin-bottom: 10px; */
+  /*margin-left: auto;
+  margin-right: auto; */
+
+  float: left;
+  width: 80%;
+  height: 75px;
+}
+
+.halfbox{
+  display: inline-block;
+  text-align: center;
+  background: whitesmoke;
+  float: left;
+  /* padding: 100px; */
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 250px;
+}
+
+.phalfbox{
+  /* Font for aside and section boxes */
+  padding-top:30px;
+  display: block;
+  font-weight:bold;
+  color: dimgray;
+  font: 16px "Verdana",monospace;
+}
+
+
+#aside{
+  margin-left: 2%;
+  width: 33%;
+}
+
+.article{
+  position: absolute;
+  background: gray;
+  margin-left: 11%;
+  margin-top: 20%;
+  height: 160px;
+  width: 43%;
+  z-index: 2;
+}
+
+.particle{
+  position:absolute;
+  padding-top: 15px;
+  left: 45%;
+  color: whitesmoke;
+} 
+
+.articlelist{
+  /* boxes inside article: h's and p */
+  /* display: none; */
+  position: absolute;
+  background: whitesmoke;
+  float: left;
+  left: 12%;
+  /* margin-left: 1%; */
+  /* margin-bottom: 1%; */
+  width: 41%;
+  height: 45px;
+  z-index: 3;
+}
+
+#hnumbers{
+  position: absolute;
+  top: 49%;
+  left: 12%;
+}
+
+.pHnumbers{
+  position: absolute;
+  padding-top: 10px;
+  left: 40%;
+  font-weight: 900;
+  color: gray;
+  font-size: 20px;
+} 
+
+#pbox{
+  position: absolute;
+  top: 57%;
+}
+
+.pboxfont{
+  position: absolute;
+  padding-top: 10px;
+  left: 50%;
+  color: dimgray;
+} 
+
+
+#section {
+  margin-left: 10%;
+  width: 45%;
+} 
+
+/* clearfix is applied to the parent container to 'fix' the flow of the page */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
